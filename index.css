@@ -128,13 +128,6 @@ nav li a .nav-opacity {
   color: #df6437;
 }
 
-/* Banner 2 */
-.banner-2 {
-  background: url("./assets/Images/banner2-bg.png") no-repeat center
-    center/cover;
-  position: relative;
-  color: white;
-}
 
 .banner-2 .content,
 .technology .content {
@@ -146,7 +139,6 @@ nav li a .nav-opacity {
   object-fit: cover;
 }
 
-.banner-2 .overlay,
 .technology .overlay {
   background-color: #090400;
   opacity: 0.9;
@@ -160,7 +152,8 @@ nav li a .nav-opacity {
 
 /* Tab1 */
 .tab-1 .tab-content{
-  background-color: #f8e3d4;
+  background-color: #26241f;
+  color: white;
 }
 
 .tab-1 .head {
@@ -205,7 +198,7 @@ nav li a .nav-opacity {
 .tab-1 .nav-tabs button {
   background-color: transparent !important;
   border-top: 2px solid #df6437 !important;
-  color:black;
+  color:#df6437;
 }
 
 
@@ -253,7 +246,6 @@ nav li a .nav-opacity {
   color: black !important;
 }
 
-
 .tab-2 .nav-tabs button.active {
   background-color: black !important;
   border:0px !important;
@@ -294,7 +286,6 @@ nav li a .nav-opacity {
   font-size: 28px;
   color: black;
   font-family: "DIN", sans-serif;
-
   font-weight: bold;
 }
 
@@ -680,7 +671,8 @@ ul {
 }
 
 .tab-1 .nav-tabs button.active {
-  background-color: #df6437 !important;
+  background-color: #221f1a !important;
+  color: #df6437 !important;
 }
 
 .banner-text {
@@ -786,19 +778,14 @@ ul {
   backface-visibility: hidden;
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: center;
   align-items: start;
   padding: 20px;
   border-radius: 10px;
 }
 
-.front{
-justify-content: center; 
-}
-
 
 .back {
-  align-items:start;
   transform: rotateY(180deg);
 }
 
